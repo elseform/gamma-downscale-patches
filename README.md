@@ -1,38 +1,41 @@
-# 2K - GAMMA Downscale Patches
+# GAMMA Downscale Patches
 
-A set of downscaled texture patch mods for lower-RAM GAMMA installs.
+Downscaled texture patch mods for lower-RAM S.T.A.L.K.E.R. Anomaly GAMMA installs.
 
-### [DOWNLOAD LATEST VERSION HERE](https://drive.google.com/file/d/1DQi6aGQkiCJ54tUpfi3tuymNJSBNkAi8)
+[DOWNLOAD LATEST PACKS](https://drive.google.com/drive/u/0/folders/1ktECtO4uV1x3K0xWq6Sk3vCzgq6o1Ou-):
 
-Install as usual and set priority that is higher than overwritten mods (bottom of your modlist).
+## Packs
 
-## Stats
+| Pack | Target | DDS files | Source size | Output size | Savings | Reduction |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| 2K - GAMMA Downscale Pack [Main] V2306 | Selected large textures capped at 2048px | 508 | 8622.46 MiB | 2236.79 MiB | 6385.67 MiB | 74.1% |
+| 1K - GAMMA Downscale Pack [Weapon Attachments] V2306 | Weapon attachment/module textures capped at 1024px | 325 | 3190.04 MiB | 874.05 MiB | 2316.00 MiB | 72.6% |
 
-This pack caps selected attachment, scope, and weapon textures at `2048px` on the largest edge.
+## Install
 
-DDS downscaling preserves each source original format, so BC7 source textures stay BC7, DXT5 stays DXT5, DXT1 stays DXT1, etc.
+Install the packs as normal MO2 mods. They must load lower than the source mods they overwrite, so the downscaled DDS files win conflicts.
 
-| Metric | Value |
-| --- | ---: |
-| Source assets size | 9,622.19 MiB |
-| Downscaled asset size | 2,480.26 MiB |
-| Reduction | 74.2% |
+The two downscale packs do not need any special priority relative to each other. They only need to load lower than the source mods they override.
 
-## Overwritten Mods
+## Scope
 
-These mods are expected to be present and enabled in your MO2 modlist
+The 2K main pack covers selected large texture winners from the current GAMMA install, including weapons, actor hands, some items, some optic/attachment textures, and miscellaneous non-UI textures.
 
-| Source mod |
-| --- |
-| 410- 3DSS for GAMMA - Redotix99 & Andtheherois & party50 |
-| 438- Sights and Optics Retexture - Meowie |
-| 461- GAMMA Immaculate Munitions Pack GIMP - andtheherois |
-| Retrogue's Additional Weapons |
-| 76- Boomsticks and Sharpsticks - Mich |
-| Boomsticks and Sharpsticks 2022 Guns |
-| G.A.M.M.A. Large Files |
-| 416- Devices of Anomaly Redone - BarryBogs |
-| 312- Gunslinger Guns for Anomaly - Teivazcz & Gunslinger Team |
-| 486- Billwa's Weapon Collection - SeDzhiMol & Billwa |
-| 432- BRN-180 Assault Rifle - JMerc75 |
-| 433- UDP-9 Carbine - Pilliii |
+The 1K weapon attachments pack is a pack for attachment/module textures that were already 2K. It covers scope/optic bodies, suppressors, muzzle attachments, tactical devices, grenade launcher attachments, and small weapon accessories.
+
+## Source Mods Summary
+
+The packs override texture files from the active GAMMA source mods. Major contributors include:
+
+| Source mod | Pack coverage |
+| --- | --- |
+| 410- 3DSS for GAMMA - Redotix99 & Andtheherois & party50 | Main 2K, 1K attachments |
+| 438- Sights and Optics Retexture - Meowie | Main 2K, 1K attachments |
+| 76- Boomsticks and Sharpsticks - Mich | Main 2K, 1K attachments |
+| 461- GAMMA Immaculate Munitions Pack GIMP - andtheherois | Main 2K, 1K attachments |
+| Retrogue's Additional Weapons | Main 2K |
+| 23- THAP Rework - IENCE | Main 2K |
+| Boomsticks and Sharpsticks 2022 Guns | Main 2K, 1K attachments |
+| G.A.M.M.A. Large Files | Main 2K, 1K attachments |
+| G.A.M.M.A. Weapon Pack | 1K attachments |
+| 312- Gunslinger Guns for Anomaly - Teivazcz & Gunslinger Team | 1K attachments |
