@@ -2,7 +2,7 @@
 
 Downscaled texture patch mods for lower-RAM S.T.A.L.K.E.R. Anomaly GAMMA installs.
 
-[DOWNLOAD LATEST PACKS](https://drive.google.com/drive/u/0/folders/1ktECtO4uV1x3K0xWq6Sk3vCzgq6o1Ou-):
+[DOWNLOAD LATEST PACKS](https://drive.google.com/drive/u/0/folders/1ktECtO4uV1x3K0xWq6Sk3vCzgq6o1Ou-)
 
 ## Packs
 
